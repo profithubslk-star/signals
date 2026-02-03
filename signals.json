@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-02-04 03:34:59",
+  "updated_at": "2026-02-04 03:40:35",
   "bot_running": true,
   "current": {
     "bot_name": "V1",
     "market": "Volatility 10 Index",
-    "signal_type": "OVER 3",
+    "signal_type": "UNDER 6",
     "status": "ACTIVE",
-    "expires_at": "03:39"
+    "expires_at": "03:45"
   },
   "next": {
     "bot_name": "V2",
-    "time": "03:44"
+    "time": "03:50"
   }
 }
