@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-02-05 01:17:36",
+  "updated_at": "2026-02-05 01:22:37",
   "bot_running": true,
   "current": {
     "bot_name": "V1",
     "market": "Volatility 75 Index",
     "signal_type": "UNDER 6",
-    "status": "ACTIVE",
+    "status": "EXPIRED",
     "expires_at": "01:22"
   },
   "next": {
