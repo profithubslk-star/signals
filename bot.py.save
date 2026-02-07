@@ -8,7 +8,8 @@ SL_TZ = pytz.timezone("Asia/Colombo")
 
 def now_sl():
     return datetime.now(SL_TZ)
-import websockets
+
+imprt websockets
 from telegram import Bot
 from telegram.constants import ParseMode
 from dotenv import load_dotenv
@@ -66,21 +67,12 @@ def update_signal_json(**k):
         json.dump(data, f, indent=2)
     git_push_if_changed()
 
-# ================= MARKETS =================
+# ===================== MARKETS =====================
 MARKETS = [
-    # Normal Volatility Indexes
-    ("R_10", "Volatility 10 Index"),
-    ("R_25", "Volatility 25 Index"),
-    ("R_50", "Volatility 50 Index"),
-    ("R_75", "Volatility 75 Index"),
-    ("R_100", "Volatility 100 Index"),
-
-    # Volatility Index 1s
-    ("R_10_1S", "Volatility 10 (1s) Index"),
-    ("R_25_1S", "Volatility 25 (1s) Index"),
-    ("R_50_1S", "Volatility 50 (1s) Index"),
-    ("R_75_1S", "Volatility 75 (1s) Index"),
-    ("R_100_1S", "Volatility 100 (1s) Index"),
+    ('R_10', 'Volatility 10 Index'),
+    ('1HZ10V', 'Volatility 10 (1s) Index'),
+    ('R_25', 'Volatility 25 Index'),
+    ('1HZ25V', 'Volatility 25 (1s) Index'),
 ]
 
 BOT_SEQUENCE = ['V1', 'V2', 'V4', 'V5']

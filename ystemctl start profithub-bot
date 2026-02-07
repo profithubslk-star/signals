@@ -1,0 +1,17 @@
+○ profithub-bot.service - ProfitHub Signal Bot
+     Loaded: loaded (/etc/systemd/system/profithub-bot.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Wed 2026-02-04 10:40:23 UTC; 11min ago
+    Process: 10911 ExecStart=/usr/bin/python3 /root/signals/bot.py (code=killed, signal=TERM)
+   Main PID: 10911 (code=killed, signal=TERM)
+        CPU: 1.949s
+
+Feb 04 10:31:18 ubuntu-4gb-nbg1-2 python3[11235]: hint: not have locally. This is usually caused by another repository pushing
+Feb 04 10:31:18 ubuntu-4gb-nbg1-2 python3[11235]: hint: to the same ref. You may want to first integrate the remote changes
+Feb 04 10:31:18 ubuntu-4gb-nbg1-2 python3[11235]: hint: (e.g., 'git pull ...') before pushing again.
+Feb 04 10:31:18 ubuntu-4gb-nbg1-2 python3[11235]: hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Feb 04 10:31:18 ubuntu-4gb-nbg1-2 python3[10911]: 2026-02-04 10:31:18,868 - Git sync failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+Feb 04 10:31:19 ubuntu-4gb-nbg1-2 python3[10911]: 2026-02-04 10:31:19,477 - HTTP Request: POST https://api.telegram.org/bot7835818361:AAHDYSCdwSJl9vyVYlM2T4_w8m6Kg5jAKTA/sendMessage "HTTP/1.1 200 OK"
+Feb 04 10:40:23 ubuntu-4gb-nbg1-2 systemd[1]: Stopping ProfitHub Signal Bot...
+Feb 04 10:40:23 ubuntu-4gb-nbg1-2 systemd[1]: profithub-bot.service: Deactivated successfully.
+Feb 04 10:40:23 ubuntu-4gb-nbg1-2 systemd[1]: Stopped ProfitHub Signal Bot.
+Feb 04 10:40:23 ubuntu-4gb-nbg1-2 systemd[1]: profithub-bot.service: Consumed 1.949s CPU time.
