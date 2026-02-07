@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-02-07 15:54:45",
+  "updated_at": "2026-02-07 16:06:48",
   "bot_running": true,
   "current": {
-    "bot_name": "V4",
+    "bot_name": "V5",
     "market": "-",
     "signal_type": "-",
     "status": "NO_SIGNAL",
     "expires_at": "-"
   },
   "next": {
-    "bot_name": "V5",
-    "time": "16:04"
+    "bot_name": "V1",
+    "time": "16:16"
   }
 }
